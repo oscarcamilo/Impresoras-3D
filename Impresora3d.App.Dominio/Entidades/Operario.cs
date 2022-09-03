@@ -6,6 +6,7 @@ namespace Impresora3d.App.Domnio
 
         public string Direccion { get; set; }
         public string NivelEstudio { get; private set; } 
+        public List<Impresora> ImpresoraACargo { get; set; }
 
         //Pendiente ImpresoraACargo
         
