@@ -2068,6 +2068,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Impresora3d.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Impresora3d.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Impresora3d.App.Dominio.dll": {}
+        }
       }
     }
   },
@@ -7236,10 +7246,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Impresora3d.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Impresora3d.App.Dominio/Impresora3d.App.Dominio.csproj",
+      "msbuildProject": "../Impresora3d.App.Dominio/Impresora3d.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "Impresora3d.App.Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
@@ -7252,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.app.persistencia\\Impresora3d.App.Persistencia.csproj",
+      "projectUniqueName": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
       "projectName": "Impresora3d.App.Persistencia",
-      "projectPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.app.persistencia\\Impresora3d.App.Persistencia.csproj",
+      "projectPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.app.persistencia\\obj\\",
+      "outputPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7269,7 +7285,11 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
+              "projectPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

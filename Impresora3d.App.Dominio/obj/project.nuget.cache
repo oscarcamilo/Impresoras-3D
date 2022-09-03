@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RAdwChjRCOwfCFMf7/iJRJ7D2ChAp0m/wZce8xKNvLn614e3q6UXeJYiFnqzbBkGotDdRrmRAfpeDaPiF2Docw==",
+  "dgSpecHash": "UDW6+GOkTIyLajqj6Gt0CC4qart+2S06pVHf8aS61Nk/7TCD5qTMWO9XUtLBY7h6nzYOnulFDeHt0lwRl9O5HA==",
   "success": true,
   "projectFilePath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ziWSkPznK+llyjx+e2YcvluKXuJ9p6OaSHejaPh0G3xIgoxfob5tIZ8Ohea6V20tIvIGRcEXW5oPDGAZDE0Ulg==",
+  "dgSpecHash": "1GdbWoeSEA1gd+HwDhTQSo3rPHvNl/9YZWRnZ8EVpnpVkbFZQSXAWgV6YeHfIuMGbxQYlFvtMZJ7p7IK6hIWRg==",
   "success": true,
-  "projectFilePath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.app.persistencia\\Impresora3d.App.Persistencia.csproj",
+  "projectFilePath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

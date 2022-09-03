@@ -1,0 +1,12 @@
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csprojAssemblyReference.cache
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.AssemblyInfoInputs.cache
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.AssemblyInfo.cs
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.deps.json
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.dll
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.pdb
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CopyComplete
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb
