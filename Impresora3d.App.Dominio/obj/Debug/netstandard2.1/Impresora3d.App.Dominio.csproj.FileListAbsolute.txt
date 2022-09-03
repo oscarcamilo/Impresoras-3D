@@ -1,0 +1,9 @@
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\obj\Debug\netstandard2.1\Impresora3d.App.Dominio.csprojAssemblyReference.cache
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\obj\Debug\netstandard2.1\Impresora3d.App.Dominio.AssemblyInfoInputs.cache
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\obj\Debug\netstandard2.1\Impresora3d.App.Dominio.AssemblyInfo.cs
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\obj\Debug\netstandard2.1\Impresora3d.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.deps.json
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.dll
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.pdb
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\obj\Debug\netstandard2.1\Impresora3d.App.Dominio.dll
+D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Dominio\obj\Debug\netstandard2.1\Impresora3d.App.Dominio.pdb
