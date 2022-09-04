@@ -4,56 +4,22 @@ using Impresora3d.App.Persistencia;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Impresora3d.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [Migration("20220904224030_Ini6")]
+    partial class Ini6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
-
-            modelBuilder.Entity("Impresora3d.App.Dominio.Impresora", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("PaisDeOrigen")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PlacaInventario")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Software")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Tipo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("VelocidadImpresion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("VolumenImpresion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("marca")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("modelo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Impresoras");
-                });
 
             modelBuilder.Entity("Impresora3d.App.Dominio.Persona", b =>
                 {
@@ -86,27 +52,6 @@ namespace Impresora3d.App.Persistencia.Migrations
                     b.ToTable("Personas");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
-                });
-
-            modelBuilder.Entity("Impresora3d.App.Dominio.Repuesto", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<DateTime>("FechaCompra")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Tipo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ValorCompra")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Repuestos");
                 });
 
             modelBuilder.Entity("Impresora3d.App.Dominio.Revision", b =>
@@ -162,21 +107,6 @@ namespace Impresora3d.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Operario");
-                });
-
-            modelBuilder.Entity("Impresora3d.App.Dominio.Tecnico", b =>
-                {
-                    b.HasBaseType("Impresora3d.App.Dominio.Persona");
-
-                    b.Property<string>("Direccion")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Tecnico_Direccion");
-
-                    b.Property<string>("NivelEstudio")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Tecnico_NivelEstudio");
-
-                    b.HasDiscriminator().HasValue("Tecnico");
                 });
 #pragma warning restore 612, 618
         }
