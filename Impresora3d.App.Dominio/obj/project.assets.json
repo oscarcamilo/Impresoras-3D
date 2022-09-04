@@ -180,23 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+      "projectUniqueName": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
       "projectName": "Impresora3d.App.Dominio",
-      "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\obj\\",
+      "projectPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
