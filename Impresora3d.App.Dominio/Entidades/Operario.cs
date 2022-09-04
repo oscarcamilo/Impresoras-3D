@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace Impresora3d.App.Domnio
+
+namespace Impresora3d.App.Dominio
 {
     public class Operario: Persona{
 

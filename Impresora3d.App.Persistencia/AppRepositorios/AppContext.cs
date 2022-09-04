@@ -8,7 +8,14 @@ namespace Impresora3d.App.Persistencia
 {
     public class AppContext : DbContext
     {
+        //public DbSet<Impresora> Impresoras { get; set; }
+        public DbSet<Operario> Operarios { get; set; }
         public DbSet<Seguro> Seguros { get; set; }
+        public DbSet<Persona> Personas { get; set; }
+        public DbSet<Revision> Revisiones { get; set; }
+        //public DbSet<Tecnico> Tecnicos { get; set; }
+        //public DbSet<Repuesto> Repuestos { get; set; }
+        
         
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

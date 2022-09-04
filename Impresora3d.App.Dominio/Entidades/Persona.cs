@@ -1,10 +1,9 @@
 using System;
+using System.Collections.Generic;
 
-
-namespace Impresora3d.App.Domnio
+namespace Impresora3d.App.Dominio
 {
     public class Persona{
-
         public int Id { get; set;}
         public string Nombre { get; set;}
         public string Apellidos { get; set;}

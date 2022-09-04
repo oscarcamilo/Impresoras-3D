@@ -7,7 +7,7 @@ namespace Impresora3d.App.Dominio
 {
     public class Impresora{
 
-        
+        public int Id { get; set; }
         public int PlacaInventario { get; set; }
         public string Tipo { get; set; }
         public string marca { get; set; }

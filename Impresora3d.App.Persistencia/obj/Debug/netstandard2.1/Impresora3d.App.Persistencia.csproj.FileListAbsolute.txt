@@ -10,3 +10,15 @@ D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\bin
 D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CopyComplete
 D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
 D:\Mision Tic\ciclo 3\impresion\Impresora3d.App\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.deps.json
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.dll
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.pdb
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csprojAssemblyReference.cache
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.AssemblyInfoInputs.cache
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.AssemblyInfo.cs
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CoreCompileInputs.cache
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CopyComplete
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
+E:\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb

@@ -7263,19 +7263,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\david\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
+      "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
       "projectName": "Impresora3d.App.Persistencia",
-      "projectPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Persistencia\\obj\\",
+      "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7290,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
-              "projectPath": "D:\\Mision Tic\\ciclo 3\\impresion\\Impresora3d.App\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj"
+            "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
+              "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj"
             }
           }
         }
