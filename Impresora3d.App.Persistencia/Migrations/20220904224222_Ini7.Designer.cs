@@ -4,56 +4,22 @@ using Impresora3d.App.Persistencia;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Impresora3d.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [Migration("20220904224222_Ini7")]
+    partial class Ini7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
-
-            modelBuilder.Entity("Impresora3d.App.Dominio.Impresora", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("PaisDeOrigen")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PlacaInventario")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Software")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Tipo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("VelocidadImpresion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("VolumenImpresion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("marca")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("modelo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Impresoras");
-                });
 
             modelBuilder.Entity("Impresora3d.App.Dominio.Persona", b =>
                 {
