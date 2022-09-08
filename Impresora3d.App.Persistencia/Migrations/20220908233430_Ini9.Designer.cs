@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Impresora3d.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220904224404_Ini8")]
-    partial class Ini8
+    [Migration("20220908233430_Ini9")]
+    partial class Ini9
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,6 +27,12 @@ namespace Impresora3d.App.Persistencia.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("Marca")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Modelo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PaisDeOrigen")
                         .HasColumnType("nvarchar(max)");
@@ -44,12 +50,6 @@ namespace Impresora3d.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VolumenImpresion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("marca")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("modelo")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -153,6 +153,28 @@ namespace Impresora3d.App.Persistencia.Migrations
                     b.ToTable("Seguros");
                 });
 
+            modelBuilder.Entity("Impresora3d.App.Dominio.Auxiliar", b =>
+                {
+                    b.HasBaseType("Impresora3d.App.Dominio.Persona");
+
+                    b.Property<string>("Direccion")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Auxiliar_Direccion");
+
+                    b.Property<string>("NivelEstudio")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Auxiliar_NivelEstudio");
+
+                    b.HasDiscriminator().HasValue("Auxiliar");
+                });
+
+            modelBuilder.Entity("Impresora3d.App.Dominio.JefeOperaciones", b =>
+                {
+                    b.HasBaseType("Impresora3d.App.Dominio.Persona");
+
+                    b.HasDiscriminator().HasValue("JefeOperaciones");
+                });
+
             modelBuilder.Entity("Impresora3d.App.Dominio.Operario", b =>
                 {
                     b.HasBaseType("Impresora3d.App.Dominio.Persona");
@@ -164,6 +186,13 @@ namespace Impresora3d.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Operario");
+                });
+
+            modelBuilder.Entity("Impresora3d.App.Dominio.SocioEmpresa", b =>
+                {
+                    b.HasBaseType("Impresora3d.App.Dominio.Persona");
+
+                    b.HasDiscriminator().HasValue("SocioEmpresa");
                 });
 
             modelBuilder.Entity("Impresora3d.App.Dominio.Tecnico", b =>

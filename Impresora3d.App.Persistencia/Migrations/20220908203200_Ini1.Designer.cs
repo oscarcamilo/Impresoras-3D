@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Impresora3d.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220908030408_Ini12")]
-    partial class Ini12
+    [Migration("20220908203200_Ini1")]
+    partial class Ini1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

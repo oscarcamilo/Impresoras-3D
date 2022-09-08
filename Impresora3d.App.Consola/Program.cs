@@ -18,13 +18,12 @@ namespace Impresora3d.App.Consola
         }
         private static void AddPersona()
         {
-            var persona = new Persona
-            {
+            var persona = new Persona{
                 Nombre = "Rodolfo",
                 Apellidos = "Francis",
                 NumeroTelefono = "31111645",
                 FechaNacimiento = new DateTime(1990, 04, 12),
-                Correo = "Rodolfitogmail.com"
+                Correo = "Rodolfito@gmail.com"
             };
             _repoPersona.AddPersona(persona);
 

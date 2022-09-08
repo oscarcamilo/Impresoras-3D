@@ -2,7 +2,7 @@
 
 namespace Impresora3d.App.Persistencia.Migrations
 {
-    public partial class Ini10 : Migration
+    public partial class Ini3 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -18,9 +18,9 @@ namespace Impresora3d.App.Persistencia.AppRepositorios
 
          public Persona AddPersona(Persona persona)
         {
-            var PersonaAdicionado = _appContext.Personas.Add(persona);
+            var personaAdicionado = _appContext.Personas.Add(persona);
             _appContext.SaveChanges();
-            return PersonaAdicionado.Entity;
+            return personaAdicionado.Entity;
 
         }
 
