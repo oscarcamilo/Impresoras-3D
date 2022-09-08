@@ -6,8 +6,7 @@ using System.Collections.Generic;
 namespace Impresora3d.App.Dominio
 {
     public class Impresora{
-       
-        
+
         public int Id { get; set; }
         public int PlacaInventario { get; set; }
         public string Tipo { get; set; }

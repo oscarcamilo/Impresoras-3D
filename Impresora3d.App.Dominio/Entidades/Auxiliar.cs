@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Impresora3d.App.Dominio
 {
-    public class Operario: Persona{
+    public class Auxiliar: Persona{
 
         public string Direccion { get; set; }
         public string NivelEstudio { get; private set; } 
