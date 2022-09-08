@@ -15,7 +15,9 @@ namespace Impresora3d.App.Persistencia
         public DbSet<Revision> Revisiones { get; set; }
         public DbSet<Tecnico> Tecnicos { get; set; }
         public DbSet<Repuesto> Repuestos { get; set; }
-        
+        public DbSet<Auxiliar> Auxiliares { get; set; }
+        public DbSet<JefeOperaciones> Jefes { get; set; }
+        public DbSet<SocioEmpresa> Socios { get; set; }
         
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
