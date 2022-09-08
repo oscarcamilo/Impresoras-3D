@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj": {}
+    "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj": {}
   },
   "projects": {
-    "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj": {
+    "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
+        "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
         "projectName": "Impresora3d.App.Consola",
-        "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\obj\\",
+        "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -25,8 +28,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
-                "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj"
+              "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
+                "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj"
               }
             }
           }
@@ -66,17 +69,20 @@
         }
       }
     },
-    "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
+    "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+        "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
         "projectName": "Impresora3d.App.Dominio",
-        "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\obj\\",
+        "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -119,17 +125,20 @@
         }
       }
     },
-    "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
+    "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
+        "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
         "projectName": "Impresora3d.App.Persistencia",
-        "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\obj\\",
+        "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -140,8 +149,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
-                "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj"
+              "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj": {
+                "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj"
               }
             }
           }
