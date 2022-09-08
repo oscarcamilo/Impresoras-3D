@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Yi2Tmb1beo/oMOflxuQGHpYbz0RIzTT19qCZexN74G+r2Kt/VTM7N4kbOPpFemugsQTfCLpkzwRZxBjRhma3A==",
+  "dgSpecHash": "2XESRIFt1+LDRW5qr+zJyhxK/L2qE8oGAtU6Q3pnm/UC8T0gklb+TAEZDRD7hpdaID5nRXX9c9V+OR/6eF+Ynw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+  "projectFilePath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

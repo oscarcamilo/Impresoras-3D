@@ -8,6 +8,10 @@ namespace Impresora3d.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioRepuestos
     {
-        
+        IEnumerable<Repuesto> GetAllRepuesto();
+        Repuesto AddRepuesto(Repuesto repuesto);
+        Repuesto UpdateRepuesto(Repuesto repuesto);
+        void DeleteRepuesto(int idRepuesto);    
+        Repuesto GetRepuesto(int idRepuesto); 
     }
 }

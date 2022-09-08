@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3y5nzyfuTSiWNK4eJg/tLVIHyTlO7rANFZqhBF7fPoj6tDwNppOCDwlNEPyFQVnsCBVlJVD0YCF3JaEDXaFPg==",
+  "dgSpecHash": "+Qu2eBjP5I8pT6MDI8nDcFHu4rpw/DalgF32d57t9+dNA49TT+4zCtzA4NswP5xxsF98H07hthHy9b7zqjpv/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
+  "projectFilePath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

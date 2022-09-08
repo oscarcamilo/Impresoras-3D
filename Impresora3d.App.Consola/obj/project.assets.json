@@ -5796,23 +5796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
+      "projectUniqueName": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
       "projectName": "Impresora3d.App.Consola",
-      "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\obj\\",
+      "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5823,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
-              "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj"
+            "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
+              "projectPath": "D:\\CRIS\\Ciclo_3\\Impresoras-3D-Agregar_repositorios\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj"
             }
           }
         }

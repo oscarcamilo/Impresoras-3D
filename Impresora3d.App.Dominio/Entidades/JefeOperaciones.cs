@@ -6,9 +6,8 @@ namespace Impresora3d.App.Dominio
 {
     public class JefeOperaciones: Persona{
 
-        public string Direccion { get; set; }
-
-       
+        public int Id { get; set; }
+               
         
     }
 }

@@ -18,13 +18,12 @@ namespace Impresora3d.App.Persistencia
         public DbSet<Auxiliar> Auxiliares { get; set; }
         public DbSet<JefeOperaciones> Jefes { get; set; }
         public DbSet<SocioEmpresa> Socios { get; set; }
-        
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = Impresora3dData");
+            optionsBuilder.UseSqlServer("Data Source = ; Initial Catalog = Impresora3dData");
         }
     }
     }
