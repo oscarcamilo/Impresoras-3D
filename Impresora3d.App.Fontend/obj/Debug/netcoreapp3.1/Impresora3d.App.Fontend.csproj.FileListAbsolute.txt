@@ -35,3 +35,4 @@ C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\n
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Impresora3d.App.Fontend.pdb
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Impresora3d.App.Fontend.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Impresora3d.App.Fontend.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Impresora\List.cshtml.g.cs
