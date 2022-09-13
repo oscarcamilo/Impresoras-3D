@@ -34,3 +34,15 @@ D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Persistencia\
 D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CopyComplete
 D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
 D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.deps.json
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.dll
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\bin\Debug\netstandard2.1\Impresora3d.App.Dominio.pdb
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.dll
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Persistencia\obj\Debug\netstandard2.1\Impresora3d.App.Persistencia.pdb

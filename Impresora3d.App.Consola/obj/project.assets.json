@@ -5796,23 +5796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
       "projectName": "Impresora3d.App.Consola",
-      "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\Impresora3d.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5823,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
-              "projectPath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj"
+            "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Persistencia\\Impresora3d.App.Persistencia.csproj"
             }
           }
         }

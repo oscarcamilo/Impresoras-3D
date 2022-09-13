@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Impresora3d.App.Dominio\Impresora3d.App.Dominio.csproj" />
+    <ProjectReference Include="..\Impresora3d.App.Persistencia\Impresora3d.App.Persistencia.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

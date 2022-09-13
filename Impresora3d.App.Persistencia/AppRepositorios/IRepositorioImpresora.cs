@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Impresora3d.App.Dominio;
+using System.Collections;
 
 namespace Impresora3d.App.Persistencia.AppRepositorios
 {

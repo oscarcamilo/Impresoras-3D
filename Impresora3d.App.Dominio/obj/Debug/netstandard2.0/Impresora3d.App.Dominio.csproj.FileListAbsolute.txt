@@ -25,3 +25,12 @@ D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Dominio\obj\D
 D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.csproj.CoreCompileInputs.cache
 D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.dll
 D:\CRIS\Ciclo_3\Impresoras-3D-Agregar_repositorios\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.pdb
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\bin\Debug\netstandard2.0\Impresora3d.App.Dominio.deps.json
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\bin\Debug\netstandard2.0\Impresora3d.App.Dominio.dll
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\bin\Debug\netstandard2.0\Impresora3d.App.Dominio.pdb
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.dll
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Dominio\obj\Debug\netstandard2.0\Impresora3d.App.Dominio.pdb

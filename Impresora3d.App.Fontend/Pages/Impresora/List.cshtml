@@ -3,3 +3,21 @@
 @{
 }
 <h5>IMPRESORAS 3D</h5>
+
+<table class="table table-striped">
+    @foreach (var impresora in Model.impresoras)
+    {
+        <tr>
+            <td>@impresora.PlacaInventario</td>
+            <td>@impresora.Tipo</td>
+            <td>@impresora.Marca</td>
+            <td>@impresora.Modelo</td>
+            <td>@impresora.PaisDeOrigen</td>
+            <td>@impresora.VolumenImpresion</td>
+            <td>@impresora.Software</td>
+            <td>@impresora.VelocidadImpresion</td>
+                  
+            
+        </tr>
+    }
+</table>
