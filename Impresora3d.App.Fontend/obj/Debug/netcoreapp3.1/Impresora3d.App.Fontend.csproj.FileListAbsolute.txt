@@ -80,3 +80,4 @@ C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\bin\Debug\n
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\bin\Debug\netcoreapp3.1\Impresora3d.App.Persistencia.dll
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\bin\Debug\netcoreapp3.1\Impresora3d.App.Dominio.pdb
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\bin\Debug\netcoreapp3.1\Impresora3d.App.Persistencia.pdb
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Impresora\Edit.cshtml.g.cs
