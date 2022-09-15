@@ -68,12 +68,21 @@ namespace Impresora3d.App.Persistencia.Migrations
                     b.Property<string>("Correo")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Direccion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Discriminator")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaNacimiento")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("Identificacion")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NivelEstudio")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
@@ -155,14 +164,6 @@ namespace Impresora3d.App.Persistencia.Migrations
                 {
                     b.HasBaseType("Impresora3d.App.Dominio.Persona");
 
-                    b.Property<string>("Direccion")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Auxiliar_Direccion");
-
-                    b.Property<string>("NivelEstudio")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Auxiliar_NivelEstudio");
-
                     b.HasDiscriminator().HasValue("Auxiliar");
                 });
 
@@ -177,12 +178,6 @@ namespace Impresora3d.App.Persistencia.Migrations
                 {
                     b.HasBaseType("Impresora3d.App.Dominio.Persona");
 
-                    b.Property<string>("Direccion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NivelEstudio")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasDiscriminator().HasValue("Operario");
                 });
 
@@ -196,14 +191,6 @@ namespace Impresora3d.App.Persistencia.Migrations
             modelBuilder.Entity("Impresora3d.App.Dominio.Tecnico", b =>
                 {
                     b.HasBaseType("Impresora3d.App.Dominio.Persona");
-
-                    b.Property<string>("Direccion")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Tecnico_Direccion");
-
-                    b.Property<string>("NivelEstudio")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Tecnico_NivelEstudio");
 
                     b.HasDiscriminator().HasValue("Tecnico");
                 });

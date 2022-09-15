@@ -1,0 +1,46 @@
+﻿@page
+@model Impresora3d.App.Fontend.Pages.ListModel2
+@{
+}
+<h5>PERSONAL 3D</h5>
+
+<table class="table table-striped">
+    <tr>
+    <th>Identificacion</th>
+    <th>Nombre</th>
+    <th>Apellidos</th>
+    <th>Numero Telefono</th>
+    <th>Fecha Nacimiento</th>
+    <th>Correo</th>
+    <th>Nivel de Estudio</th>
+    <th>Direccion</th>
+    <th>Cargo</th>
+    <th>Editar</th>
+    
+        
+  </tr>
+    @foreach (var persona in Model.personas)
+    {
+        <tr>
+            <td>@persona.Identificacion</td>
+            <td>@persona.Nombre</td>
+            <td>@persona.Apellidos</td>
+            <td>@persona.NumeroTelefono</td>
+            <td>@persona.FechaNacimiento</td>
+            <td>@persona.Correo</td>
+            <td>@persona.Direccion</td>
+            <td>@persona.NivelEstudio</td>
+            <td>@Model.Discriminator</td>
+            
+            
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-personaId="@persona.Id">
+                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
+            </td>
+                  
+            
+        </tr>
+    }
+</table>

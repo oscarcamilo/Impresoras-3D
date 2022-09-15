@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QiYZacqRkklB4sC8KQl90eAkaJCyAnUGw4wU7JoLgXGG3Td4jWy8HpWHGl8WgDqS+W3WXVepFwh3xVLxxonFfw==",
+  "dgSpecHash": "eYU4Tm/CrpcDuJTGqFFBpWQH2Ulkqi8dFqlABkqeU19MN0KuutvYLz+Hd8jBi9FjbnkLnEVEpdIfn+woc/+7oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+  "projectFilePath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\david\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

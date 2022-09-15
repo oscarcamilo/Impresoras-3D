@@ -5,6 +5,18 @@
 <h5>IMPRESORAS 3D</h5>
 
 <table class="table table-striped">
+    <tr>
+    <th>Placa inventario</th>
+    <th>Tipo</th>
+    <th>Marca</th>
+    <th>Modelo</th>
+    <th>Pais de origen</th>
+    <th>Volumen de impresion</th>
+    <th>Software</th>
+    <th>Velocidad de impresion</th>
+    <th>Editar</th>
+    
+  </tr>
     @foreach (var impresora in Model.impresoras)
     {
         <tr>
@@ -16,6 +28,7 @@
             <td>@impresora.VolumenImpresion</td>
             <td>@impresora.Software</td>
             <td>@impresora.VelocidadImpresion</td>
+            
 
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-impresoraId="@impresora.Id">

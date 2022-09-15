@@ -1,0 +1,52 @@
+﻿@page
+@model Impresora3d.App.Fontend.Pages.EditModel2
+@{
+    int impresoraId=Model.Persona.Id;
+}
+
+<h2>Edicion de los datos del personal @Model.Persona.Identificacion @Model.Persona.Nombre</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Persona.Id"/>
+    <div class="form-group">
+        <label asp-for="Persona.Identificacion"></label>
+        <input asp-for="Persona.Identificacion" class="form-control">
+        <span class="text-danger" asp-validation-for="Persona.Identificacion"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Persona.Nombre"></label>
+        <input asp-for="Persona.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Persona.Nombre"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Persona.Apellidos"></label>
+        <input asp-for="Persona.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Persona.Apellidos"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Persona.NumeroTelefono"></label>
+        <input asp-for="Persona.NumeroTelefono" class="form-control">
+        <span class="text-danger" asp-validation-for="Persona.NumeroTelefono"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Persona.FechaNacimiento"></label>
+        <input asp-for="Persona.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="Persona.FechaNacimiento"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Persona.Correo"></label>
+        <input asp-for="Persona.Correo" class="form-control">
+        <span class="text-danger" asp-validation-for="Persona.Correo"></span>
+    </div>
+    
+    
+   
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+
+<a asp-page="./List" class="btn btn-default">Regresar Lista Personas</a>

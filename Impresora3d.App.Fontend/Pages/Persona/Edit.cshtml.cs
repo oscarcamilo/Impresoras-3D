@@ -10,27 +10,27 @@ using Impresora3d.App.Dominio;
 
 namespace Impresora3d.App.Fontend.Pages
 {
-    public class EditModel : PageModel
+    public class EditModel2 : PageModel
     {
-        private readonly IRepositorioImpresora repositorioImpresora;
+        private readonly IRepositorioPersona repositorioPersona;
         [BindProperty]
-        public Impresora Impresora { get; set; }
+        public Persona Persona {get;set;}
 
-        public EditModel()
+        public EditModel2()
         {
-            this.repositorioImpresora = new RepositorioImpresora(new Impresora3d.App.Persistencia.AppContext()); 
+            this.repositorioPersona = new RepositorioPersona(new Impresora3d.App.Persistencia.AppContext()); 
         }
 
-        public IActionResult OnGet(int? impresoraId)
+        public IActionResult OnGet(int? personaId)
         {
-            if(impresoraId.HasValue)
+            if(personaId.HasValue)
             {
-                Impresora = repositorioImpresora.GetImpresora(impresoraId.Value);
+                Persona = repositorioPersona.GetPersona(personaId.Value);
             }
             else{
-                Impresora = new Impresora();
+                Persona = new Persona();
             }
-            if(Impresora == null){
+            if(Persona == null){
                 return RedirectToPage("./NotFound");
             }
             else
@@ -40,16 +40,16 @@ namespace Impresora3d.App.Fontend.Pages
 
         public IActionResult OnPost()
         {
-            Console.WriteLine(Impresora.Id);
+            Console.WriteLine(Persona.Id);
             if(!ModelState.IsValid){
                 return Page();
             }
-            if(Impresora.Id>=0)
+            if(Persona.Id>=0)
             {
-                Impresora = repositorioImpresora.UpdateImpresora(Impresora);
+                Persona = repositorioPersona.UpdatePersona(Persona);
             }
             else{
-                repositorioImpresora.AddImpresora(Impresora);
+                repositorioPersona.AddPersona(Persona);
             }
             return Page();
 
