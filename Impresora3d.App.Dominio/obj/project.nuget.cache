@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eYU4Tm/CrpcDuJTGqFFBpWQH2Ulkqi8dFqlABkqeU19MN0KuutvYLz+Hd8jBi9FjbnkLnEVEpdIfn+woc/+7oA==",
+  "dgSpecHash": "cbR3z/jrfGhJmLbmuqTbd2iTiwB2pN/b6yUB8qNsCeK3i5LAkS2toaYXsTuuD1FIKWnVWrnLzOzSArchmcTv5w==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Impresoras-3D\\Impresora3d.App.Dominio\\Impresora3d.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\david\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\david\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
