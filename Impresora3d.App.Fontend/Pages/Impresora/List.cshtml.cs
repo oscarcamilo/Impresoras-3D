@@ -11,8 +11,11 @@ namespace Impresora3d.App.Fontend.Pages
 {
     public class ListModel : PageModel
     {
-         private readonly IRepositorioImpresora repositorioImpresora;
+        private readonly IRepositorioImpresora repositorioImpresora;
         public IEnumerable<Impresora> impresoras { get; set; }
+        [BindProperty]
+        public Impresora Impresora { get; set; }
+
 
         public ListModel()
         {
@@ -22,6 +25,23 @@ namespace Impresora3d.App.Fontend.Pages
         public void OnGet()
         {
             impresoras=repositorioImpresora.GetAllImpresoras();
+            
         }
+        public IActionResult OnPost(int? impresoraId)
+        {
+            Console.WriteLine(impresoraId.Value);
+            if(!ModelState.IsValid){
+                return Page();
+            }
+            if(impresoraId.Value>=0)
+            {
+                repositorioImpresora.DeleteImpresora(impresoraId.Value);
+            }
+            
+            return Page();
+
+        }
+        
+       
     }
 }

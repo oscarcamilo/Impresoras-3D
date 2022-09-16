@@ -1,0 +1,59 @@
+﻿@page
+@model Impresora3d.App.Fontend.Pages.EditModelCI
+
+<h2>Adicionar impresora </h2>
+
+<form method="post">
+    
+    <div class="form-group">
+        <label asp-for="Impresora.PlacaInventario"></label>
+        <input asp-for="Impresora.PlacaInventario" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.PlacaInventario"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.Tipo"></label>
+        <input asp-for="Impresora.Tipo" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.Tipo"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.Marca"></label>
+        <input asp-for="Impresora.Marca" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.Marca"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.Modelo"></label>
+        <input asp-for="Impresora.Modelo" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.Modelo"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.PaisDeOrigen"></label>
+        <input asp-for="Impresora.PaisDeOrigen" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.PaisDeOrigen"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.VolumenImpresion"></label>
+        <input asp-for="Impresora.VolumenImpresion" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.VolumenImpresion"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.Software"></label>
+        <input asp-for="Impresora.Software" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.Software"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Impresora.VelocidadImpresion"></label>
+        <input asp-for="Impresora.VelocidadImpresion" class="form-control">
+        <span class="text-danger" asp-validation-for="Impresora.VelocidadImpresion"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+
+<a asp-page="./List" class="btn btn-default">Regresar Lista Impresoras</a>

@@ -14,7 +14,7 @@ namespace Impresora3d.App.Fontend.Pages
     {
         private readonly IRepositorioPersona repositorioPersona;
         public IEnumerable<Persona> personas { get; set; }
-        public string Discriminator { get; set; }
+        
         
 
         public ListModel2()
@@ -25,7 +25,7 @@ namespace Impresora3d.App.Fontend.Pages
         public void OnGet()
         {
             personas=repositorioPersona.GetAllPersona();
-            Discriminator=DataColumn;
+            
         }
     }
 }

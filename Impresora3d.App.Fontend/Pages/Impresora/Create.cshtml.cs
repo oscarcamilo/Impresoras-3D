@@ -10,45 +10,28 @@ using Impresora3d.App.Dominio;
 
 namespace Impresora3d.App.Fontend.Pages
 {
-    public class EditModel : PageModel
+    public class EditModelCI : PageModel
     {
         private readonly IRepositorioImpresora repositorioImpresora;
         [BindProperty]
         public Impresora Impresora { get; set; }
 
-        public EditModel()
+        public EditModelCI()
         {
             this.repositorioImpresora = new RepositorioImpresora(new Impresora3d.App.Persistencia.AppContext()); 
         }
 
-        public IActionResult OnGet(int? impresoraId)
-        {
-            if(impresoraId.HasValue)
-            {
-                Impresora = repositorioImpresora.GetImpresora(impresoraId.Value);
-            }
-            else{
-                Impresora = new Impresora();
-            }
-            if(Impresora == null){
-                return RedirectToPage("./NotFound");
-            }
-            else
-               return Page();
-
-        }
-
+        
         public IActionResult OnPost()
         {
             Console.WriteLine(Impresora.Id);
             if(!ModelState.IsValid){
                 return Page();
             }
-            if(Impresora.Id>=0)
-            {
-                Impresora = repositorioImpresora.UpdateImpresora(Impresora);
+            else{
+                repositorioImpresora.AddImpresora(Impresora);
+                Console.WriteLine("Impresora Creada");
             }
-            
             return Page();
 
         }
