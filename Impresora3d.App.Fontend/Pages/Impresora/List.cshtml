@@ -37,10 +37,10 @@
                 </a>
             </td>
             <td>
-                <button  ID="Button1" type="submit" formmethod="post" class="btn btn-primary" asp-route-impresoraId="@impresora.Id"></button>
-               
+                <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-impresoraId="@impresora.Id">
+                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
             </td>
-                  
             
         </tr>
     }

@@ -1,0 +1,18 @@
+﻿@page
+@model Impresora3d.App.Fontend.Pages.DeleteIModel
+@{
+    int impresoraId=Model.Impresora.Id;
+}
+
+
+<div class="alert alert-danger">
+<h2>Esta seguro que desea borrar la impresora </h2>
+<h2>Placa: @Model.Impresora.PlacaInventario Marca:  @Model.Impresora.Marca Modelo: @Model.Impresora.Modelo</h2>
+<form method="post">
+    <input type="hidden" asp-for="Impresora.Id"/>
+    <button type="submit" class="btn btn-danger">Si</button>
+    <a asp-page="./List" class="btn btn-primary m-1">No</a>
+</form>
+
+</div>
+

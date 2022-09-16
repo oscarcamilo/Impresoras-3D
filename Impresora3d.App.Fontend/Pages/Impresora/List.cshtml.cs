@@ -27,21 +27,8 @@ namespace Impresora3d.App.Fontend.Pages
             impresoras=repositorioImpresora.GetAllImpresoras();
             
         }
-        public IActionResult OnPost(int? impresoraId)
-        {
-            Console.WriteLine(impresoraId.Value);
-            if(!ModelState.IsValid){
-                return Page();
-            }
-            if(impresoraId.Value>=0)
-            {
-                repositorioImpresora.DeleteImpresora(impresoraId.Value);
-            }
-            
-            return Page();
-
-        }
         
+                
        
     }
 }
