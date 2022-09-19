@@ -170,5 +170,7 @@ E:\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pa
 E:\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Impresora\Delete.cshtml.g.cs
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Impresora\Create.cshtml.g.cs
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Impresora\Delete.cshtml.g.cs
-C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Edit.cshtml.g.cs
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\List.cshtml.g.cs
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Edit.cshtml.g.cs
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Create.cshtml.g.cs
+C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Delete.cshtml.g.cs

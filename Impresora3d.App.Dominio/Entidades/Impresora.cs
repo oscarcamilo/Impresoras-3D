@@ -9,7 +9,7 @@ namespace Impresora3d.App.Dominio
     public class Impresora{
 
         public int Id { get; set; }
-        [Required, StringLength(50)]
+        [Required, Range(1,100000000)]
         public int PlacaInventario { get; set; }
         [Required, StringLength(50)]
         public string Tipo { get; set; }

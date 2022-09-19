@@ -10,27 +10,27 @@ using Impresora3d.App.Dominio;
 
 namespace Impresora3d.App.Fontend.Pages
 {
-    public class DeleteIModel : PageModel
+    public class DeleteIIModel : PageModel
     {
-        private readonly IRepositorioImpresora repositorioImpresora;
+        private readonly IRepositorioPersona repositorioPersona;
         [BindProperty]
-        public Impresora Impresora { get; set; }
+        public Persona Persona { get; set; }
 
-        public DeleteIModel()
+        public DeleteIIModel()
         {
-            this.repositorioImpresora = new RepositorioImpresora(new Impresora3d.App.Persistencia.AppContext()); 
+            this.repositorioPersona = new RepositorioPersona(new Impresora3d.App.Persistencia.AppContext()); 
         }
 
-        public IActionResult OnGet(int? impresoraId)
+        public IActionResult OnGet(int? personaId)
         {
-            if(impresoraId.HasValue)
+            if(personaId.HasValue)
             {
-                Impresora = repositorioImpresora.GetImpresora(impresoraId.Value);
+                Persona = repositorioPersona.GetPersona(personaId.Value);
             }
             else{
-                Impresora = new Impresora();
+                Persona = new Persona();
             }
-            if(Impresora == null){
+            if(Persona == null){
                 return RedirectToPage("./NotFound");
             }
             else
@@ -40,15 +40,14 @@ namespace Impresora3d.App.Fontend.Pages
 
         public IActionResult OnPost()
         {
-            
+            Console.WriteLine(Persona.Id);
             if(!ModelState.IsValid){
                 return Page();
             }
-            if(Impresora.Id>=0)
+            if(Persona.Id>=0)
             {
-                
-                repositorioImpresora.DeleteImpresora(Impresora.Id);
-                Console.WriteLine(Impresora.Id);
+                Console.WriteLine(Persona.Id);
+                repositorioPersona.DeletePersona(Persona.Id);
                 return RedirectToPage("./List");
             }
             

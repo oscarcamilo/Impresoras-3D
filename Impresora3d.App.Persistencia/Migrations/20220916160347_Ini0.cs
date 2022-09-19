@@ -13,14 +13,14 @@ namespace Impresora3d.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PlacaInventario = table.Column<int>(type: "int", nullable: false),
-                    Tipo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Marca = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Modelo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PaisDeOrigen = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    VolumenImpresion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Software = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    VelocidadImpresion = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    PlacaInventario = table.Column<int>(type: "int", maxLength: 50, nullable: false),
+                    Tipo = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Marca = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Modelo = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    PaisDeOrigen = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    VolumenImpresion = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Software = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    VelocidadImpresion = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {

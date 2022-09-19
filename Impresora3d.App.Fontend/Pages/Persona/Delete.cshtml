@@ -1,0 +1,18 @@
+﻿@page
+@model Impresora3d.App.Fontend.Pages.DeleteIIModel
+@{
+    int personaId = Model.Persona.Id;
+}
+
+
+<div class="alert alert-danger">
+<h2>Esta seguro que desea borrar la persona </h2>
+<h2>Identificacion: @Model.Persona.Identificacion Nombre:  @Model.Persona.Nombre Apellidos: @Model.Persona.Apellidos</h2>
+<form method="post">
+    <input type="hidden" asp-for="Persona.Id"/>
+    <button type="submit" class="btn btn-danger">Si</button>
+    <a asp-page="./List" class="btn btn-primary m-1">No</a>
+</form>
+
+</div>
+

@@ -1,4 +1,4 @@
-using System.Data;
+using System.ComponentModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,22 +10,30 @@ using Impresora3d.App.Dominio;
 
 namespace Impresora3d.App.Fontend.Pages
 {
-    public class ListModel2 : PageModel
+    public class EditModelCO : PageModel
     {
         private readonly IRepositorioPersona repositorioPersona;
-        public IEnumerable<Persona> personas { get; set; }
-        [BindProperty] 
-        public Persona Persona { get; set; }       
+        [BindProperty]
+        public Persona Persona { get; set; }
 
-        public ListModel2()
+        public EditModelCO()
         {
             this.repositorioPersona = new RepositorioPersona(new Impresora3d.App.Persistencia.AppContext()); 
         }
+
         
-        public void OnGet()
+        public IActionResult OnPost()
         {
-            personas=repositorioPersona.GetAllPersona();
-            
+            Console.WriteLine(Persona.Id);
+            if(!ModelState.IsValid){
+                return Page();
+            }
+            else{
+                repositorioPersona.AddPersona(Persona);
+                Console.WriteLine("Persona Creada");
+            }
+            return Page();
+
         }
     }
 }

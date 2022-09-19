@@ -47,10 +47,9 @@ namespace Impresora3d.App.Fontend.Pages
             if(Persona.Id>=0)
             {
                 Persona = repositorioPersona.UpdatePersona(Persona);
+                Console.WriteLine(Persona.Id);
             }
-            else{
-                repositorioPersona.AddPersona(Persona);
-            }
+            
             return Page();
 
         }

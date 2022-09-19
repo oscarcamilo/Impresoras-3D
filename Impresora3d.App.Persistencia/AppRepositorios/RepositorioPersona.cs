@@ -52,11 +52,14 @@ namespace Impresora3d.App.Persistencia.AppRepositorios
             if (PersonaEncontrado != null)
             {
                 PersonaEncontrado.Id = persona.Id;
+                PersonaEncontrado.Identificacion = persona.Identificacion;
                 PersonaEncontrado.Nombre = persona.Nombre;
                 PersonaEncontrado.Apellidos = persona.Apellidos;
                 PersonaEncontrado.NumeroTelefono = persona.NumeroTelefono;
                 PersonaEncontrado.FechaNacimiento = persona.FechaNacimiento;
                 PersonaEncontrado.Correo = persona.Correo;
+                PersonaEncontrado.Direccion = persona.Direccion;
+                PersonaEncontrado.NivelEstudio = persona.NivelEstudio;
                                  
                 _appContext.SaveChanges();
 
