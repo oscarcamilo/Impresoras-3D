@@ -3,7 +3,24 @@
 
 <h2>Adicionar Persona </h2>
 
+
 <form method="post">
+
+    
+    <div class="form-group">
+        <label >Cargo</label>
+        <select asp-for="Persona.Discriminator">
+            <option >Tecnico</option>
+            <option >Operario</option>
+            <option >Auxiliar</option>
+            <option>SocioEmpresa</option>
+            <option>JefeOperaciones</option>
+        <span class="text-danger" asp-validation-for="Persona.Discriminator"></span>
+        </select>
+        
+
+    </div>
+    
     
     <div class="form-group">
         <label asp-for="Persona.Identificacion"></label>
@@ -51,7 +68,19 @@
         <span class="text-danger" asp-validation-for="Persona.NivelEstudio"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Crear</button>
+    <button type="submit" class="btn btn-primary"><b>Crear</b>
+    <i class="icono1 fa-solid fa-circle-plus"></i></button>
 </form>
+<h1></h1>
+<a asp-page="./List"><i class="icono fa-regular fa-circle-left"> </i> Regresar Lista Empleados</a>
 
-<a asp-page="./List" class="btn btn-default">Regresar Lista Personas</a>
+<style>
+    .icono1{
+        font-size:16px;
+    }
+    .icono {
+        font-size: 32px;
+    }
+</style>
+
+

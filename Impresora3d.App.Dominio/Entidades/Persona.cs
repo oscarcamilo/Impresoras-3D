@@ -21,6 +21,7 @@ namespace Impresora3d.App.Dominio
         public string Direccion {get;set;}
         //[Required, StringLength(50)]
         public string NivelEstudio {get;set;}
+        public string Discriminator { get; set;} 
 
     }
 }
