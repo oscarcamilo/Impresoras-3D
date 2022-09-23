@@ -174,3 +174,6 @@ C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\n
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Edit.cshtml.g.cs
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Create.cshtml.g.cs
 C:\Users\user\Documents\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Delete.cshtml.g.cs
+E:\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index2.cshtml.g.cs
+E:\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Create.cshtml.g.cs
+E:\GitHub\Impresoras-3D\Impresora3d.App.Fontend\obj\Debug\netcoreapp3.1\Razor\Pages\Persona\Delete.cshtml.g.cs
